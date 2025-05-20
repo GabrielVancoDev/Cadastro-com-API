@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #525252;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.cabecario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecario ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cabecario a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.cabecario a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#home {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.vendas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.album {
+  background-color: #000000;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.album h3 {
+  margin-bottom: 10px;
+}
+
+.album a {
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.album a:hover {
+  background-color: #555;
+}
+
+.rodape {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

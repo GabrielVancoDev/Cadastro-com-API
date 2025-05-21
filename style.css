@@ -96,6 +96,13 @@ header {
   width: 20vw;
 }
 
+.album p {
+  flex-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .album h2 {
   flex-wrap: nowrap;
   overflow: hidden;

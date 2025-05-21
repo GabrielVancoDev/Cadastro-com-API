@@ -3,16 +3,16 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Montserrat";
   list-style: none;
+  box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 /* Configurações padrões todas as páginas */
 body {
-  height: 100%;
   background-color: #525252;
   background-image: url("img/background.png");
   background-size: cover;
@@ -21,6 +21,7 @@ body {
 }
 
 header {
+  height: 10%;
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -54,7 +55,7 @@ header {
 }
 /* Main */
 .banner {
-  font-size: 2.0rem;
+  font-size: 2rem;
   color: #818181;
   text-shadow: red 0.1em 0.1em 0.2em;
   padding: 20px;
@@ -88,6 +89,7 @@ header {
   background-color: #000000;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(255, 0, 0, 0.603);
+  gap: 40px;
   margin: 20px;
   padding: 20px;
   text-align: center;
@@ -199,6 +201,55 @@ button:hover {
   transition: background-color 0.3s ease, transform 0.2s;
 }
 
+/* Página de Sobre */
+
+#sobre {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(195, 195, 195, 0.6);
+  margin: 50px auto;
+  width: 90%;
+  max-width: 700px;
+}
+
+#sobre > p {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+#sobre > h2 {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+#sobre > h3 {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
 /* Rodapé */
 
 .rodape {
@@ -206,7 +257,8 @@ button:hover {
   color: #fff;
   padding: 20px;
   text-align: center;
-  position: fixed;
+  position: relative;
+  top: 0;
   bottom: 0;
   width: 100%;
 }

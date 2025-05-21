@@ -93,7 +93,7 @@ header {
   margin: 20px;
   padding: 20px;
   text-align: center;
-  max-width: 300px;
+  width: 20vw;
 }
 
 .album h2 {

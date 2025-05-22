@@ -75,35 +75,40 @@ header {
   justify-content: center;
 }
 
-.album img {
-  max-width: 100%;
-  height: auto;
-  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.54);
-}
-
 .album {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: #000000;
+  background-color: #000;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 0, 0, 0.603);
-  gap: 40px;
+  box-shadow: 0 2px 5px rgba(255, 0, 0, 0.6);
+  gap: 20px;
   margin: 20px;
   padding: 20px;
+  width: 300px;
+  flex-shrink: 0;
   text-align: center;
-  width: 350px;
+}
+
+.album img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.54);
 }
 
 .album h2 {
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: wrap;
 }
 
 .album h3 {
+  flex-wrap: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   margin-bottom: 10px;
   text-transform: uppercase;
 }

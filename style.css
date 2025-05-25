@@ -82,3 +82,50 @@ nav ul li a:hover {
   cursor: pointer;
   transition: color 0.3s ease;
 }
+
+/* Fim do cabeçalho */
+
+/* Hero section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0 0.7), rgba(0, 0, 0, 0.7))
+    url("/api/placeholder/1200/400") center/cover no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #d1d1d1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: linear-gradient(to right, #f12711, #f5af19);
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cta-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}

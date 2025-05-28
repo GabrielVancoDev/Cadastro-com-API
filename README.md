@@ -6,7 +6,6 @@ Este projeto é um **site estático responsivo** com foco em uma navegação mod
 
 ## 📸 Imagens do Projeto
 
-> *(Adicione suas capturas de tela depois nos locais indicados)*
 
 ### 🖥️ Versão Desktop
 ![image](https://github.com/user-attachments/assets/7a50d3be-87b6-4f0e-9d36-ea69858ba914)

@@ -20,13 +20,18 @@ const pesquisarCep = async () => {
   }
 };
 
-preencherFormulario = (endereco) => {
-    ,0
+const preencherFormulario = (endereco) => {
+    document.getElementById("rua").value = endereco.logradouro;
+    document.getElementById("bairro").value = endereco.bairro;
+    document.getElementById("cidade").value = endereco.localidade;
+    document.getElementById("estado").value = endereco.uf;
 };
 
-limparFormulario = () => {
+const limparFormulario = () => {
   document.getElementById("rua").value = "";
   document.getElementById("bairro").value = "";
   document.getElementById("cidade").value = "";
   document.getElementById("estado").value = "";
 };
+
+document.getElementById("cep").addEventListener("focusout", pesquisarCep);

@@ -187,11 +187,28 @@ button:hover {
 }
 
 #formulario {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: #fff;
+padding: 40px 20px;
+border-radius: 12px;
+margin: 50px auto;
+width: 90%;
+max-width: 700px;
+}
+
+.fomulario > input {
+  margin: 10px;
+  padding: 10px;
+  width: 220px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #fomulario > button {

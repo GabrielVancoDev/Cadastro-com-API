@@ -1,4 +1,4 @@
-# NG Music 🎵 
+# NG Music 🎵
 
 Bem-vindo ao **NG Music**, um site dedicado aos amantes da música! Aqui você pode conhecer e adquirir álbuns icônicos de algumas das maiores bandas do rock mundial.
 
@@ -14,6 +14,8 @@ Este é um projeto simples de front-end utilizando **HTML** e **CSS**, que simul
 
 ## 📁 Estrutura de Arquivos
 
+```
+
 ├── index.html # Página inicial
 ├── cadastro.html # Página de cadastro (não incluída aqui)
 ├── sobre.html # Página sobre a empresa (não incluída aqui)
@@ -25,6 +27,7 @@ Este é um projeto simples de front-end utilizando **HTML** e **CSS**, que simul
 ├── album4.png # Red Hot Chili Peppers - Californication
 ├── album5.png # System of a Down - Toxicity
 └── album6.png # Guns N' Roses - Appetite for Destruction
+```
 
 ## 💡 Tecnologias Utilizadas
 
@@ -32,12 +35,9 @@ Este é um projeto simples de front-end utilizando **HTML** e **CSS**, que simul
 <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
 <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
 
-
 ## 🖼️ Pré-visualização
 
 A página exibe uma lista de álbuns com imagem, título e botão de compra.  
 Confira um exemplo abaixo:
 
 ![image](https://github.com/user-attachments/assets/f5401e6d-ef4b-453c-87b6-96666f1bc29c)
-
-
